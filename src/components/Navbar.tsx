@@ -2,11 +2,11 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 import React, { useContext, useState } from "react"
-import logo from "../assets/CineCanvas.png"
+import logo from "../assets/OVIOUSMOVIES.png"
 import Genres from "./Genres"
 import { Input } from "./ui/input"
 import ThemeToggle from "./ThemeToggle"
-import { IoLogoGithub } from 'react-icons/io5';
+import { HiCursorClick } from 'react-icons/hi';
 import { Link, useNavigate  } from "react-router"
 import { SearchResultContext } from "@/context/searchResult.context"
 
@@ -56,8 +56,8 @@ const Navbar = () => {
             </Link>
             </div>
         </div>
-        <a href="https://github.com/Optimized-Brain/Cinecanvas" target="_blank" rel="noopener noreferrer">
-          <IoLogoGithub size={30} />
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <HiCursorClick size={30} />
         </a>
         <ThemeToggle />
       </div>
